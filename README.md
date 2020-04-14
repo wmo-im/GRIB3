@@ -1,2 +1,2 @@
 # GRIB3
-GRIB version 3
+GRIB edition 3
