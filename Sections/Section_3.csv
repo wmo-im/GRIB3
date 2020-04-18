@@ -1,0 +1,14 @@
+Byte No.,Content
+1-4,Length of section in bytes (7 or nn)
+5,Number of section (3)
+6-7,Section Unique Identifier (SUI)
+8,Significance of reference date and time (see Code Table 3.0)
+9,Type of Calendar (code table 3.1) (see Note 1)
+10-13,Year (signed integer according to Reg. 92.1.5)
+14,Month
+15,Day
+16,Hour
+17,Minute
+18,Second
+19-20,Time Domain Template number (see code Table 3.2)
+21-nn,Time Domain Template (see template 3.N where N is the Time Domain Template number given in bytes 19-20)

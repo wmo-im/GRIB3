@@ -1,0 +1,9 @@
+Byte No.,Content
+1-2,Hours of observational data cut-off after reference time (see Note 1)
+3,Minutes of observational data cut-off after reference time
+4,Type of statistical processing (code table 3.4)
+5,Indicator of unit of time range (see Code table 3.3)
+6-9,Start of interval after reference time in units defined by byte 5
+10,Indicator of unit of time range (see Code table 3.3)
+11-14, Length of time range over which statistical processing is done in units defined by byte 10
+15-16,Observable quantity units after statistical processing (code table 3.5)

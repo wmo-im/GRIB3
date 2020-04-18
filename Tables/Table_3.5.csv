@@ -1,0 +1,6 @@
+Code figure,Meaning
+0,Unchanged
+1,Multiply by time
+2–32767,Reserved
+32768–65534,Reserved for local use
+65535,Missing

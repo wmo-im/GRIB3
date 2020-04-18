@@ -1,0 +1,14 @@
+Byte No.,Content
+1–4,Length of section in bytes
+5,Number of section (2)
+6–7,Total number of repetitions (or total number of fields) (see Note 1)
+8–9,Number of distinct sections 3 with length greater than 7 bytes (see Notes 1 and 2)
+10–11,Number of distinct sections 4 with length greater than 7 bytes (see Notes 1 and 2)
+12–13,Number of distinct sections 5 with length greater than 7 bytes (see Notes 1 and 2)
+14–15,Number of distinct sections 6 with length greater than 7 bytes (see Notes 1 and 2)
+16–17,Number of distinct sections 7 with length greater than 7 bytes (see Notes 1 and 2)
+18–19,Number of distinct sections 8 with length greater than 7 bytes (see Notes 1 and 2)
+20–21,Number of distinct sections 9 with length greater than 7 bytes (see Notes 1 and 2)
+22–23,Index template number
+24–27,Length of Index template in bytes
+28–nn,Index template (See Note 3) (see template 2.N where N is the Index template number given in bytes 22-23)

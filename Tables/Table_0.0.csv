@@ -1,0 +1,4 @@
+Code figure,Meaning
+0,Experimental
+1–254,Future versions
+255,Missing. Local tables in use. Valid local tables version number shall be coded.

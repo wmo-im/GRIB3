@@ -1,0 +1,17 @@
+Code figure,Meaning
+0,Minute
+1,Hour
+2,Day
+3,Month
+4,Year
+5,Decade (10 years)
+6,Normal (30 years)
+7,Century (100 years)
+8–9,Reserved
+10,3 hours
+11,6 hours
+12,12 hours
+13,Second
+14–191,Reserved
+192–254,Reserved for local use
+255,Missing

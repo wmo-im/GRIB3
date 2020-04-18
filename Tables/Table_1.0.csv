@@ -1,0 +1,4 @@
+Code figure,Meaning
+0,Local tables not used. Only table entries and templates from the current master table are valid
+1–254,Local tables versions used
+255,Missing

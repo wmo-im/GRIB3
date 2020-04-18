@@ -1,0 +1,31 @@
+= Template Components in GRIB edition 3
+
+== Templates Components used in Templates of Section 3 (Time Domain Section)
+
+=== Template Component 3.0 – Forecast point in time
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_3.0.csv[]
+|===
+
+.Note:
+1. Hours greater than 65534 will be coded as 65534.
+
+=== Template Component 3.1 – Forecast time interval
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_3.1.csv[]
+|===
+
+.Note:
+1. Hours greater than 65534 will be coded as 65534.
+
+=== Template Component 3.2 - Processed (included and missing) data in statistical process
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_3.2.csv[]
+|===
+

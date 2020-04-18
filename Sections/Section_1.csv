@@ -1,0 +1,14 @@
+Byte No.,Content
+1–4,Length of section in bytes
+5,Number of section (1)
+6–7,Identification of originating/generating centre (see Common Code Table C–11)
+8–9,Identification of originating/generating subcentre (allocated by originating/generating centre)
+10,Local tables version number (see Code Table 1.0 and Notes 1-3)
+11,Identification of Project (see Code Table 1.1)
+12,Production status of processed data in this GRIB message (see Code Table 1.2)
+13–14,Originator Local template number (see Notes 4 and 5)
+15–16,Length of originator local template in bytes (see Note 5)
+17–nn,Originator Local template (see Note 6)
+(nn+1)–(nn+2),Project Local template number (see Notes 7 and 8)
+(nn+3)–(nn+4),Length of project local template in bytes (see Note 8)
+(nn+5)–mm,Project Local template (see Note 9)

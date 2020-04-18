@@ -1,0 +1,51 @@
+
+= Content of Sections in GRIB edition 3
+
+== Section 0 - Indicator Section
+
+[format="csv", options="header"]
+|===
+include::./Sections/Section_0.csv[]
+|===
+
+== Section 1 - Originator Section
+
+[format="csv", options="header"]
+|===
+include::./Sections/Section_1.csv[]
+|===
+
+.Notes:
+1. Local tables shall define those parts of the Master table that are reserved for local use except for the case described in note (2). In any case, the use of Local tables in messages intended for non-local or international exchange is strongly discouraged.
+2. If master tables version number is 255 then only local tables are in use. The local tables version number must not be zero nor missing, and local tables may include entries from the entire range of the tables.
+3. If local tables version number is zero, master tables version number shall not be zero or missing and only those parts of the tables not reserved for local use may be used.
+4. Originator Local templates are defined and maintained by the Originating Centre.
+5. Originator Local template is optional. If local template is not present, the originator local template number shall be set to missing (all bits set to 1) and the length of local template shall be set to zero.
+6. Originator local template shall be selected using the originator local template number. The originator local templates are maintained and made available to the users by the originating centre.
+7. Project Local templates are defined and maintained by the Originating Centre.
+8. Project Local template is optional. If local template is not present, the project local template number shall be set to missing (all bits set to 1) and the length of project local template shall be set to zero.
+9. Project local template shall be selected using the project local template number. The project local templates are maintained and made available to the users by the project participants.
+
+== Section 2 - Repetitions and Index Section
+
+[format="csv", options="header"]
+|===
+include::./Sections/Section_2.csv[]
+|===
+
+.Notes:
+1. A message with only one field shall have the total number of repetitions and each of the number of distinct sections set to 1.
+2. Two repeated sections shall never be identical. If two sections are identical because they have the same content, one of the two shall be coded with only 7 bytes (empty section with reference) and the SUI shall be coded with the same value of the identical section to which this section refers. Each section  will therefore have content in it or refer to another section of the same section number. In the latter case, it will be made only of 7 bytes comprising section length (4 bytes), number of section (1 byte) and Section Unique Identifier - SUI (2 bytes).
+3. The inclusion of an Index template is optional. If index template is not present, the index template number (bytes 21-22) shall be set to missing (all bits set to 1) and the length of index template (bytes 23-26) shall be set to zero.
+
+== Section 3 - Time Domain Section
+
+[format="csv", options="header"]
+|===
+include::./Sections/Section_3.csv[]
+|===
+
+.Notes:
+1. The type of calendar used (byte 9) applies to the entire section including the Time Domain Template.
+
+

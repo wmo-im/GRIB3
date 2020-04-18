@@ -1,0 +1,78 @@
+= Code Tables in GRIB Edition 3
+
+== Code Tables used in Section 0 (Indicator Section)
+
+=== Code Table 0.0 – GRIB master tables version number
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_0.0.csv[]
+|===
+
+== Code Tables used in Section 1 (Originator Section)
+
+=== Code Table 1.0 – GRIB local tables version number
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_1.0.csv[]
+|===
+
+=== Code Table 1.1 – International Projects
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_1.1.csv[]
+|===
+
+=== Code Table 1.2 – Production status of data
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_1.2.csv[]
+|===
+
+== Code Tables used in Section 3 (Time Domain Section)
+
+=== Code Table 3.0 – Significance of reference date and time
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_3.0.csv[]
+|===
+
+=== Code Table 3.1 – Type of calendar
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_3.1.csv[]
+|===
+
+=== Code Table 3.2 – Time Domain template number
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_3.2.csv[]
+|===
+
+=== Code Table 3.3– Indicator of unit of time range
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_3.3.csv[]
+|===
+
+=== Code Table 3.4 – Type of time statistical processing
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_3.4.csv[]
+|===
+
+=== Code Table 3.5 – Observable quantity units after statistical processing
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_3.5.csv[]
+|===
+

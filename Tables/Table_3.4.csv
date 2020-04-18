@@ -1,0 +1,16 @@
+Code figure,Meaning
+0,Average
+1,Accumulation (see Note 1)
+2,Maximum
+3,Minimum
+4,Difference (value at the end of time range minus value at the beginning)
+5,Root mean square
+6,Standard deviation
+7,Covariance (temporal variance) (see Note 2)
+8,Difference (value at the start of time range minus value at the end)
+9,Ratio 
+10,Standardized anomaly
+11,Summation
+12–191,Reserved
+192–254,Reserved for local use
+255,Missing

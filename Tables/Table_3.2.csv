@@ -1,0 +1,11 @@
+Code figure,Meaning
+0,Forecast point in time  
+1,Forecast time interval
+2,Forecast two nested time intervals
+3,Forecast three nested time intervals
+4,Forecast time interval with number of processed data values
+5,Forecast two nested time intervals with number of processed data values
+6,Forecast three nested time intervals with number of processed data values
+7–32767,Reserved
+32768–65534,Reserved for local use
+65535,Missing
