@@ -1,0 +1,4 @@
+Byte No.,Contents
+1-2,NP - Number of parallels (1)
+5-5+NP,Parallel first point ranks
+5+NP-5+2*NP,Parallel last point ranks

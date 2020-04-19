@@ -1,0 +1,6 @@
+Byte No.,Contents
+1–4,Length of section in bytes (7 or nn)
+5,Number of section (7)
+6-7,Section Unique Identifier (SUI)
+8-9,Observable Property Template number (see Code Table 7.0)
+10–nn,Observable Property Template (see Template 7.N where N is the Observable Property Template number given in bytes 8-9)

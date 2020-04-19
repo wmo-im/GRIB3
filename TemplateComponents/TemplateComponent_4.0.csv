@@ -1,0 +1,8 @@
+Byte No., Contents
+1,Scale factor of length of semi-major axis
+2–5,Scaled value of length of semi-major axis (equatorial radius)
+6,Scale factor of prime meridian offset
+7–10,Scaled value of prime meridian offset (see Note 1)
+11,Scale factor of length of semi-minor axis
+12–15,Scaled value of length of semi-minor axis (distance from ellipsoid centre to pole)
+

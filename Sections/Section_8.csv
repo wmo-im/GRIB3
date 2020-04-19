@@ -1,0 +1,7 @@
+Byte No.,Contents
+1–4,Length of section in bytes (7 or nn)
+5,Number of section (8)
+6-7,Section Unique Identifier (SUI)
+8-11,Number of data values encoded in Section 10.
+12–13,Data Representation Template number (see Code Table 8.0)
+14–nn,Data Representation Template (see Template 8.N where N is the Data Representation Template number given in bytes 12-13)

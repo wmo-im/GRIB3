@@ -1,0 +1,8 @@
+"Byte No.","Contents"
+1-4,"Ni – number of points along a parallel"
+9-12,"Basic angle of the initial production domain (see Note 1)"
+13-16,"Subdivisions of basic angle used to define extreme longitudes, and direction increments (see Note 1)"
+21-24,"Lo1 – longitude of first grid point (see Note 1)"
+30-33,"Lo2 – longitude of last grid point (see Note 1)"
+34-37,"Di – i direction increment (see Notes 1 and 2)"
+

@@ -1,4 +1,5 @@
 = Code Tables in GRIB Edition 3
+:stem: latexmath
 
 == Code Tables used in Section 0 (Indicator Section)
 
@@ -74,5 +75,99 @@ include::./Tables/Table_3.4.csv[]
 [format="csv", options="header"]
 |===
 include::./Tables/Table_3.5.csv[]
+|===
+
+== Code and Flag Tables used in Section 4 (Horizontal Domain Section)
+
+=== Code Table 4.0 – Horizontal Domain template number
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_4.0.csv[]
+|===
+
+=== Flag Table 4.1 – Resolution and component flags
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_4.1.csv[]
+|===
+
+=== Flag Table 4.2 – Scanning mode
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_4.2.csv[]
+|===
+
+.Notes:
+. i direction: west to east along a parallel or left to right along an x-axis.
+. j direction: south to north along a meridian, or bottom to top along a y-axis.
+. If bit number 4 is set, the first row scan is as defined by previous flags.
+. La1 and Lo1 define the first row, which is an odd row.
+. Di and Dj are assumed to be positive, with the direction of i and j being given by bits 1 and 2.
+. Bits 5 through 8 may be used to generate staggered grids, such as Arakawa grids (see Part B, GRIB Attachment II).
+. If any of bits 5, 6, 7 or 8 are set, Di and Dj are not optional.
+
+=== Code Table 4.3 – Latitudes generating algorithm
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_4.3.csv[]
+|===
+
+=== Code Table 4.4 – Spectral data representation type
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_4.4.csv[]
+|===
+
+.Note:
+. The associated Legendre functions of the first kind are defined by:
++
+[latexmath]
+++++++++++++++++
+\[P_{n}^{m}(\mu) = \sqrt{(2n+1)\frac{(n-m)!}{(n+m)!}}\frac{1}{2^{n}n!}(1-\mu^{2})^{m/2}\frac{d^{n+m}}{d\mu^{n+m}}(\mu^{2}-1)^{n},m \geq 0\]  
+\[P_{n}^{m}(\mu) = P_{n}^{-m}(\mu)\]
+++++++++++++++++
++
+A field latexmath:[F(\lambda,\mu)] is represented by:
++
+[latexmath]
+++++++++++++++++
+\[F(\lambda,\mu) = \sum_{m=-m}^{M}\sum_{n=\left|m\right|}^{N(m)}F_{n}^{m}P_{n}^{m}(\mu)e^{im\lambda}\]
+++++++++++++++++
++
+where latexmath:[\lambda] is the longitude,
++
+latexmath:[\mu] the sine of latitude,
++
+and latexmath:[F_{n}^{-m}] the complex conjugate of latexmath:[F_{n}^{m}]
+
+=== Code Table 4.5 – Spectral data representation mode
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_4.5.csv[]
+|===
+
+.Note:
+. The complex numbers latexmath:[F_{n}^{m}] (see Code Figure 1 in Code Table 4.4) are stored for latexmath:[$m ≥ 0$] as pairs of real numbers latexmath:[\Re(F_{n}^{m}),\Im(F_{n}^{m})] ordered with latexmath:[n] increasing from latexmath:[m] to latexmath:[N(m)], first for latexmath:[m = 0] and then for latexmath:[m = 1, 2, ... M]
++
+Values of latexmath:[N(m)] for common truncation cases:
++
+Triangular: latexmath:[M = J = K, N(m) = J]
++
+Rhomboidal: latexmath:[K = J + M, N(m) = J + m]
++
+Trapezoidal: latexmath:[K = J, K > M, N(m) = J]
+
+
+=== Code Table 4.6 – Verification checksum algorithm
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_4.6.csv[]
 |===
 

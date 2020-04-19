@@ -1,0 +1,6 @@
+Byte No.,Contents
+1–4,Length of section in bytes (7 or nn)
+5,Number of section (5)
+6-7,Section Unique Identifier (SUI)
+8–9,Vertical Domain Template number (see Code Table 5.0)
+10–nn,Vertical Domain Template (see Template 5.N where N is the Vertical Domain Template number given in bytes 8-9)

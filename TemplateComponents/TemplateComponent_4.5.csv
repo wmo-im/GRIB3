@@ -1,0 +1,5 @@
+Byte No.,Contents
+1-8,Longitude of first point (IEEE 64-bit floating point)
+9-10,NP - Number of parallels (1)
+11-11+2*NP,Number of points per parallel
+

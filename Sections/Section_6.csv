@@ -1,0 +1,6 @@
+Byte No.,Contents
+1–4,Length of section in bytes (7 or nn)
+5,Number of section (6)
+6-7,Section Unique Identifier (SUI)
+8-9,Generating Process Template number (see Code Table 6.0)
+10-nn,Generating Process Template (see Template 6.N where N is the Generating Process Template number given in bytes 8-9)

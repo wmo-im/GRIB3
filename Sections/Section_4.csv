@@ -1,0 +1,7 @@
+Byte No.,Contents
+1–4,Length of section in bytes (7 or nn)
+5,Number of section (4)
+6-7,Section Unique Identifier (SUI)
+8–11,Number of points in the domain
+12–13,Horizontal Domain Template number (see Code Table 4.0)
+14–nn,Horizontal Domain Template (see Template 4.N where N is the Horizontal Grid Template number given in bytes 12-13)

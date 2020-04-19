@@ -1,0 +1,14 @@
+Byte No.,Contents
+1–4,Ni – number of points along a parallel
+5–8,Nj – number of points along a meridian
+9–12,Basic angle of the initial production domain (see Note 1)
+13–16,Subdivisions of basic angle used to define extreme longitudes and latitudes and direction increments (see Note 1)
+17–20,La1 – latitude of first grid point (see Note 1)
+21–24,Lo1 – longitude of first grid point (see Note 1)
+25,Resolution and component flags (see Flag table 4.1)
+26–29,La2 – latitude of last grid point (see Note 1)
+30–33,Lo2 – longitude of last grid point (see Note 1)
+34–37,Di – i direction increment (see Notes 1 and 2)
+38–41,Dj – j direction increment (see Notes 1 and 2)
+42,Scanning mode (flags – see Flag table 4.2)
+

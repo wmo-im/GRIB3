@@ -1,0 +1,10 @@
+Byte No.,Contents
+1-2,Number of parallels (2)
+5,Latitudes Generating algorithm (code table 4.3)
+6-13,Latitude Reference Value. (IEEE 64-bit floating-point)
+14-15,Latitude Binary scale factor 
+16-17,Latitude Decimal scale factor 
+18,Number of bits used for each latitude value
+19-20,Nblat - Number of bytes of latitude encoded data
+21–Nblat,Latitude simple packing encoded data
+

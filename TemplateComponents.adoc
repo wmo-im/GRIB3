@@ -1,4 +1,5 @@
 = Template Components in GRIB edition 3
+:stem: latexmath
 
 == Templates Components used in Templates of Section 3 (Time Domain Section)
 
@@ -10,7 +11,7 @@ include::./TemplateComponents/TemplateComponent_3.0.csv[]
 |===
 
 .Note:
-1. Hours greater than 65534 will be coded as 65534.
+. Hours greater than 65534 will be coded as 65534.
 
 === Template Component 3.1 – Forecast time interval
 
@@ -20,7 +21,7 @@ include::./TemplateComponents/TemplateComponent_3.1.csv[]
 |===
 
 .Note:
-1. Hours greater than 65534 will be coded as 65534.
+. Hours greater than 65534 will be coded as 65534.
 
 === Template Component 3.2 - Processed (included and missing) data in statistical process
 
@@ -28,4 +29,205 @@ include::./TemplateComponents/TemplateComponent_3.1.csv[]
 |===
 include::./TemplateComponents/TemplateComponent_3.2.csv[]
 |===
+
+== Components used in Templates of Section 4 (Horizontal Domain Section) 
+
+=== Horizontal Domain Template Component 4.0 – Ellipsoid of revolution defined with axis lengths
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.0.csv[]
+|===
+
+=== Horizontal Domain Template Component 4.1 – Latitude/longitude regular grid 
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.1.csv[]
+|===
+
+.Notes:
+. Basic angle of the initial production domain and subdivisions of this basic angle are provided to manage cases where the recommended unit of latexmath:[10^{–6}] degrees is not applicable to describe the extreme longitudes and latitudes, and direction increments. For these last six descriptors, the unit is equal to the ratio of the basic angle and the subdivisions number. For ordinary cases, zero and missing values should be coded, equivalent to respective values of latexmath:[1] and latexmath:[10^{6}] (latexmath:[10^{–6}] degrees unit). 
+. Direction increments are unsigned and direction of increment is represented in the scanning mode.
+
+
+=== Horizontal Domain Template Component 4.2 – Rotation of latitude/longitude coordinates system 
+       
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.2.csv[]
+|===
+ 
+.Note:
+. Three parameters define a general latitude/longitude coordinate system, formed by a general rotation of the sphere. One choice for these parameters is:
+.. The geographic latitude in degrees of the southern pole of the coordinate system, latexmath:[\theta_{p}] for example;
+.. The geographic longitude in degrees of the southern pole of the coordinate system, latexmath:[\lambda_{p}] for example;
+.. The angle of rotation in degrees about the new polar axis (measured clockwise when looking from the southern to the northern pole) of the coordinate system, assuming the new axis to have been obtained by first rotating the sphere through latexmath:[\lambda_{p}] degrees about the geographic polar axis, and then rotating through latexmath:[(90 + \theta_{p})] degrees so that the southern pole moved along the (previously rotated) Greenwich meridian.
+
+
+=== Horizontal Domain Template Component 4.3 – Stretching of latitude/longitude coordinates system
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.3.csv[]
+|===
+
+.Note:
+. The stretching is defined by three parameters:
+.. The latitude in degrees (latexmath:[\lambda], measured in the model coordinate system) of the “pole of stretching”;
+.. The longitude in degrees (latexmath:[\theta], measured in the model coordinate system) of the “pole of stretching”; and
+.. The stretching factor C in units of latexmath:[10^{–6}] represented as an integer.
++
+The stretching is defined by representing data uniformly in a coordinate system with longitude latexmath:[\lambda] and latitude latexmath:[\theta^{1}], where:
++
+[latexmath]
+++++++++++++++++++++ 
+\[\theta^{1} = \sin^{–1}(\frac{(1-C^{2})+(1+C^{2})\sin(\theta)}{(1+C^{2})+(1-C^{2})\sin(\theta)})\]
+++++++++++++++++++++ 
++                        
+and latexmath:[\lambda] and latexmath:[\theta] are longitude and latitude in a coordinate system in which the “pole of stretching” is the northern pole.  latexmath:[C = 1] gives uniform resolution, while latexmath:[C \gt 1] gives enhanced resolution around the pole of stretching.
+
+=== Horizontal Domain Template Component 4.4 – Latitudes simple packing 
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.4.csv[]
+|===
+    
+.Notes:
+. The template provides an ordered list of latitudes (parallels) and shall be combined with a definition of the longitudes per parallel.
+. Unsigned
+
+=== Horizontal Domain Template Component 4.5 –Periodic Longitudes with number of points per parallel
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.5.csv[]
+|===
+
+.Note:
+. Unsigned
+
+=== Horizontal Domain Template Component 4.6 – Periodic Longitudes with number of points per parallel and Longitude of first point per parallel
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.6.csv[]
+|===
+
+.Note:
+. Unsigned
+        
+=== Horizontal Domain Template Component 4.7 – Non-periodic Longitudes with number of points per parallel
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.7.csv[]
+|===
+
+.Notes: 
+. Longitude of first point per parallel shall not be equal to longitude of last point per parallel 
+. Unsigned
+
+        
+=== Horizontal Domain Template Component 4.8 – Regular Latitudes 
+        
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.8.csv[]
+|===
+
+.Notes:
+. Basic angle of the initial production domain and subdivisions of this basic angle are provided to manage cases where the recommended unit of latexmath:[10^{–6}] degrees is not applicable to describe the extreme longitudes and latitudes, and direction increments. For these last six descriptors, the unit is equal to the ratio of the basic angle and the subdivisions number.
++
+For ordinary cases, zero and missing values should be coded, equivalent to respective values of latexmath:[1] and latexmath:[10^{6}] (latexmath:[10^{–6}] degrees unit). 
+. Direction increments are unsigned and direction of increment is represented in the scanning mode.
+
+
+=== Horizontal Domain Template Component 4.9 – Regular longitudes 
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.9.csv[]
+|===
+        
+. Notes:
+. Basic angle of the initial production domain and subdivisions of this basic angle are provided to manage cases where the recommended unit of latexmath:[10^{–6}] degrees is not applicable to describe the extreme longitudes and latitudes, and direction increments. For these last six descriptors, the unit is equal to the ratio of the basic angle and the subdivisions number.
++
+For ordinary cases, zero and missing values should be coded, equivalent to respective values of latexmath:[1] and latexmath:[10^{6}] (latexmath:[10^{–6}] degrees unit). 
+. Direction increments are unsigned and direction of increment is represented in the scanning mode.
+
+=== Horizontal Domain Template Component 4.10 – Selection of latitudes  
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.10.csv[]
+|===
+
+=== Horizontal Domain Template Component 4.11 – Selection of points per parallel
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.11.csv[]
+|===
+        
+.Note:
+. Unsigned
+
+=== Horizontal Domain Template Component 4.12 – Selection of longitudes  
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.12.csv[]
+|===
+
+=== Horizontal Domain Template Component 4.13 – Latitude/longitude unstructured mesh simple packing 
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.13.csv[]
+|===
+        
+=== Horizontal Domain Template Component 4.14 – Latitude/longitude irregular grid simple packing 
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.14.csv[]
+|===
+
+.Note:
+. Unsigned
+
+=== Horizontal Domain Template Component 4.15 – Spherical harmonic coefficients
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.15.csv[]
+|===
+
+.Notes:
+. Unsigned
+. The pentagonal representation of resolution is general. Some common truncations are special cases of the pentagonal one:
++
+Triangular: latexmath:[M = J = K]
++
+Rhomboidal: latexmath:[K = J + M]
++
+Trapezoidal: latexmath:[K = J, K > M]
+
+=== Horizontal Domain Template Component 4.16 – URL
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_4.16.csv[]
+|===
+
+.Notes:
+. A URL is a Uniform Resource Locator that is identifying a web resource and is used in this context to locate and retrieve a GRIB message providing the template to be used. The syntax of the URL is:
++
+[.text-center]
+scheme://[host[:port]]/path[?query]
++
+where port and query are optional and can be missing.
+. The number of bytes NN is dictated by the verification checksum algorithm. Note that NN = 0 if the checksum algorithm is set to "missing".
 

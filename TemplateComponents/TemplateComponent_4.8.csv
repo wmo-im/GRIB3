@@ -1,0 +1,9 @@
+"Byte No.","Contents"
+1-4,"Nj – number of points along a meridian"
+5-8,"Basic angle of the initial production domain (see Note 1)"
+9-12,"Subdivisions of basic angle used to define extreme latitudes, and direction increments (see Note 1)"
+13-16,"La1 – latitude of first grid point (see Note 1)"
+17,"Resolution and component flags (see Flag table 4.1)"
+18-21,"La2 – latitude of last grid point (see Note 1)"
+22-25,"Dj – j direction increment (see Notes 1 and 2)"
+

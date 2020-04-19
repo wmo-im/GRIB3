@@ -1,0 +1,8 @@
+Code figure,Meaning
+0,Gaussian quadrature points
+1,Regular latitudes
+2,Shifted regular latitudes
+3,Chebyskev nodes
+4-191,Reserved 
+192-254,Reserved for local use
+255,Missing

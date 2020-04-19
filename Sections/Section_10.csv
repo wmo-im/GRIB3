@@ -1,0 +1,4 @@
+Byte No.,Contents
+1–4,Length of section in bytes (nn)
+5,Number of section (10)
+6–nn,Data in a format described by Data Template 10.X where X is the Data Template number given in bytes 12–13 of Section 8.

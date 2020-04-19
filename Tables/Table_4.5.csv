@@ -1,0 +1,6 @@
+"Code figure","Meaning"
+0,"Reserved"
+1,"Complex Numbers are stored as pairs of Real (see Note 1)"
+2–191,"Reserved"
+192-254,"Reserved for local use"
+255,"Missing"

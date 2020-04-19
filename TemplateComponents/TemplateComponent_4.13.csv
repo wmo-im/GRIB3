@@ -1,0 +1,15 @@
+Byte No., Contents
+1-4,Number of grid points
+5-12,Longitude Reference Value. (IEEE 64-bit floating-point)
+13-14,Longitude Binary scale factor 
+15-16,Longitude Decimal scale factor 
+17,Number of bits used for each longitude value 
+18-25,Latitude Reference Value. (IEEE 64-bit floating-point)
+26-27,Latitude Binary scale factor 
+28-29,Latitude Decimal scale factor 
+30,Number of bits used for each latitude value 
+31-34,Nblon - Number of bytes of longitude encoded data
+35–35+Nblon,Longitude simple packing encoded data
+36+Nblon-37+Nblon,Nblat - Number of bytes of latitude encoded data
+38+Nblon–38+Nblon+Nblat,Latitude simple packing encoded data
+

@@ -1,4 +1,5 @@
 = Templates used in GRIB edition 3
+:stem: latexmath
 
 == Templates used in Section 3 (Time Domain Section)
 
@@ -24,7 +25,7 @@ include::./Templates/Template_3.2.csv[]
 |===
 
 .Note:
-1. Outer time interval first.
+. Outer time interval first.
 
 === Time Domain Template 3.3 – Forecast three nested time intervals
 
@@ -34,7 +35,7 @@ include::./Templates/Template_3.3.csv[]
 |===
 
 .Note:
-1. Outer time interval first.
+. Outer time interval first.
 
 === Time Domain Template 3.4 – Forecast time interval with number of processed data values
 
@@ -51,7 +52,7 @@ include::./Templates/Template_3.5.csv[]
 |===
 
 .Note:
-1. Outer time interval (including processed data in statistical process) first.
+. Outer time interval (including processed data in statistical process) first.
 
 === Time Domain Template 3.6 – Forecast three nested time intervals with number of processed data values
 
@@ -61,5 +62,308 @@ include::./Templates/Template_3.6.csv[]
 |===
 
 .Note:
-1. Outer time interval (including processed data in statistical process) first.
+. Outer time interval (including processed data in statistical process) first.
+
+== Templates used in Section 4 (Horizontal Domain Section)
+
+=== Horizontal Domain Section Template 4.0 – Latitude/longitude regular grid on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.0.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.1 – Rotated latitude/longitude regular grid on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.1.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.2 – Stretched latitude/longitude regular grid on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.2.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.3 – Stretched and rotated latitude/longitude regular grid on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.3.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.4 – Latitudes simple packing, Periodic Longitudes with number of points per parallel on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.4.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.5 – Latitudes simple packing, Periodic Longitudes with number of points per parallel and longitude of first point per parallel on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.5.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.6 – Latitudes simple packing, non-periodic Longitudes with number of points per parallel on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.6.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.7 – Latitudes simple packing, regular Longitudes on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.7.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.8 – Regular Latitudes, Periodic Longitudes with number of points per parallel on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.8.csv[]
+|===
+
+===  Horizontal Domain Section Template 4.9 – Regular Latitudes, Periodic Longitudes with number of points per parallel and longitude of first point per parallel on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.9.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.10 – Regular Latitudes, non-periodic Longitudes with number of points per parallel on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.10.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.11 – Regular Latitudes, regular Longitudes on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.11.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.12 – Latitudes simple packing, Periodic Longitudes with number of points per parallel on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.12.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.13 – Latitudes simple packing, Periodic Longitudes with number of points per parallel and longitude of first point per parallel on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.13.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.14 – Latitudes simple packing, non-periodic Longitudes with number of points per parallel on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.14.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.15 – Latitudes simple packing, regular Longitudes on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.15.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.16 – Regular Latitudes, Periodic Longitudes with number of points per parallel on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.16.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.17 – Regular Latitudes, Periodic Longitudes with number of points per parallel and longitude of first point per parallel on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.17.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.18 – Regular Latitudes, non-periodic Longitudes with number of points per parallel on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.18.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.19 – Regular Latitudes, regular Longitudes on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.19.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.20 – Rotated Latitudes simple packing, Periodic Longitudes with number of points per parallel on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.20.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.21 – Rotated Latitudes simple packing, Periodic Longitudes with number of points per parallel and longitude of first point per parallel on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.21.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.22 – Rotated Latitudes simple packing, non-periodic Longitudes with number of points per parallel on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.22.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.23 – Rotated Latitudes simple packing, regular Longitudes on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.23.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.24 – Rotated Regular Latitudes, Periodic Longitudes with number of points per parallel on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.24.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.25 – Rotated Regular Latitudes, Periodic Longitudes with number of points per parallel and longitude of first point per parallel on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.25.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.26 – Rotated Regular Latitudes, non-periodic Longitudes with number of points per parallel on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.26.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.27 – Rotated Regular Latitudes, regular Longitudes on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.27.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.28 – Rotated Latitudes simple packing, Periodic Longitudes with number of points per parallel on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.28.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.29 – Rotated Latitudes simple packing, Periodic Longitudes with number of points per parallel and longitude of first point per parallel on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.29.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.30 – Rotated Latitudes simple packing, non-periodic Longitudes with number of points per parallel on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.30.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.31 – Rotated Latitudes simple packing, regular Longitudes on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.31.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.32 – Rotated Regular Latitudes, Periodic Longitudes with number of points per parallel on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.32.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.33 – Rotated Regular Latitudes, Periodic Longitudes with number of points per parallel and longitude of first point per parallel on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.33.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.34 – Rotated Regular Latitudes, non-periodic Longitudes with number of points per parallel on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.34.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.35 – Rotated Regular Latitudes, regular Longitudes on ellipsoidal planet, sub-grid
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.35.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.36 – Latitude/longitude unstructured mesh on ellipsoidal planet simple packing
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.36.csv[]
+|===
+
+=== Horizontal Domain Section Template 4.37 – Rotated Latitude/longitude unstructured mesh on ellipsoidal planet simple packing
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.37.csv[]
+|===
+
+=== Horizontal Domain Template 4.38 – Latitude/longitude irregular grid on ellipsoidal planet simple packing
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.38.csv[]
+|===
+
+=== Horizontal Domain Template 4.39 – Rotated Latitude/longitude irregular grid on ellipsoidal planet simple packing
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.39.csv[]
+|===
+
+=== Horizontal Domain Template 4.40 – Spherical harmonic coefficients on ellipsoidal planet 
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.40.csv[]
+|===
+
+=== Horizontal Domain Template 4.41 – Rotated Spherical harmonic coefficients on ellipsoidal planet
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.41.csv[]
+|===
+
+=== Horizontal Domain Template 4.42 – URL
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_4.42.csv[]
+|===
 
