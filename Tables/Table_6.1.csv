@@ -1,0 +1,22 @@
+Code figure,meaning
+0,Analysis
+1,Initialization
+2,Forecast
+3,Bias corrected forecast
+4,Ensemble forecast
+5,Probability forecast
+6,Forecast error
+7,Analysis error
+8,Observation
+9,Climatological
+10,Probability-weighted forecast
+11,Bias-corrected ensemble forecast
+12,Post-processed analysis (see Note 1)
+13,Post-processed forecast (see Note 1)
+14,Nowcast
+15,Hindcast
+16,Physical retrieval
+17,Regression analysis
+18–191,Reserved
+192–254,Reserved for local use
+255,Missing

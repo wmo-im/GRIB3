@@ -294,3 +294,34 @@ scheme://[host[:port]]/path[?query]
 where port and query are optional and can be missing.
 . The number of bytes NN is dictated by the verification checksum algorithm. Note that NN = 0 if the checksum algorithm is set to "missing".
 
+== Components used in Templates of Section 6 (Generating Process Section)
+
+=== Generating Process Template Component 6.0 – Process type and identifier
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_6.0.csv[]
+|===
+
+=== Generating Process Template Component 6.1 – Ensemble size
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_6.1.csv[]
+|===
+
+=== Generating Process Template Component 6.2 – Ensemble member 
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_6.2.csv[]
+|===
+
+=== Generating Process Template Component 6.3 – Statistical post-processing of all ensemble members
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_6.3.csv[]
+|===
+
+

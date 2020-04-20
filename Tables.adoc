@@ -233,3 +233,50 @@ with latexmath:[1 \leq k \leq NLEV] by using (1) and the surface pressure.
 include::./Tables/Table_5.3.csv[]
 |===
 
+== Code Tables used in Section 6 (Generating Process Section)
+
+=== Code table 6.0 – Generating process template number
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_6.0.csv[]
+|===
+
+=== Code table 6.1 – Type of generating process
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_6.1.csv[]
+|===
+
+.Note:
+. Code figures 12 and 13 are intended in cases where code figures 0 and 2 may not be sufficient to indicate that significant post-processing has taken place on an initial analysis or forecast output.
+
+=== Code table 6.2 – Type of ensemble member
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_6.2.csv[]
+|===
+
+=== Code table 6.3 – Type of statistical post-processing of ensemble members
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_6.3.csv[]
+|===
+
+.Note:
+. Large anomaly index is defined as 
++
+[latexmath]
+++++++++++++++++++++
+\[\frac{N_{0.5} – N_{–0.5}}{N}\]
+++++++++++++++++++++
++
+where latexmath:[N_{0.5}] is the number of members whose anomaly is higher than 0.5 the observed climatological standard deviation,
++
+latexmath:[N_{-0.5}] is the number of members whose anomaly is lower than -0.5 the observed climatological standard deviation
++
+and latexmath:[N] the total number of members.
+

@@ -425,3 +425,26 @@ include::./Templates/Template_5.6.csv[]
 include::./Templates/Template_5.7.csv[]
 |===
 
+== Templates used in Section 6 (Generating Process Section)
+
+=== Generating Process Template 6.0 – Forecast, analysis or observation
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_6.0.csv[]
+|===
+
+=== Generating Process Template 6.1 – Individual ensemble forecast or analysis 
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_6.1.csv[]
+|===
+
+=== Generating Process Template 6.2 – Statistical post-processing of all ensemble members
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_6.2.csv[]
+|===
+

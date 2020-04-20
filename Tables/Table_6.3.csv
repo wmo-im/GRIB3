@@ -1,0 +1,11 @@
+Code figure,Meaning
+0,Unweighted mean 
+1,Weighted mean 
+2,Spread 
+3,Large anomaly index (see Note 1)
+4,Interquartile range (range between the 25th and 75th quantile)
+5,Minimum 
+6,Maximum 
+7–191,Reserved
+192–254,Reserved for local use
+255,Missing
