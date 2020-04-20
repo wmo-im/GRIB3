@@ -1,0 +1,7 @@
+Byte No.,Content
+1,Type of first fixed surface (see Code Table 5.1)
+2,Scale factor of first fixed surface
+3–6,Scaled value of first fixed surface
+7,Type of second fixed surface (see Code Table 5.1)
+8,Scale factor of second fixed surface
+9–12,Scaled value of second fixed surface

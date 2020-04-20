@@ -1,0 +1,5 @@
+Byte No.,Content
+1-2,NURL - number of bytes used by the URL
+3-3+NURL,URL (see Note 1)
+4+NURL,verification checksum algorithm (see Code Table 5.3)
+5+NURL-5+NURL+NN,checksum (see Note 2)

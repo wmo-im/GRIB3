@@ -367,3 +367,61 @@ include::./Templates/Template_4.41.csv[]
 include::./Templates/Template_4.42.csv[]
 |===
 
+== Templates used in Section 5 (Vertical Domain Section)
+
+=== Vertical Coordinate Template 5.0 – Vertical level 
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_5.0.csv[]
+|===
+
+=== Vertical Coordinate Template 5.1 – Vertical layer 
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_5.1.csv[]
+|===
+
+=== Vertical Coordinate Template 5.2 – Model level with list of parameters 
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_5.2.csv[]
+|===
+
+=== Vertical Coordinate Template 5.3 – Model layer with list of parameters
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_5.3.csv[]
+|===
+
+=== Vertical Coordinate Template 5.4 – Model level with list of parameters and URL of auxiliary fields
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_5.4.csv[]
+|===
+
+=== Vertical Coordinate Template 5.5 – Model level with URL of list of parameters and URL of auxiliary fields
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_5.5.csv[]
+|===
+
+=== Vertical Coordinate Template 5.6 – Layer of model level with list of parameters and URL of auxiliary fields
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_5.6.csv[]
+|===
+
+=== Vertical Coordinate Template 5.7 – Layer of model level with URL of list of parameters and URL of auxiliary fields
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_5.7.csv[]
+|===
+

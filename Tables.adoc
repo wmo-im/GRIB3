@@ -49,7 +49,7 @@ include::./Tables/Table_3.0.csv[]
 include::./Tables/Table_3.1.csv[]
 |===
 
-=== Code Table 3.2 – Time Domain template number
+=== Code Table 3.2 – Time Domain Template number
 
 [format="csv", options="header"]
 |===
@@ -79,7 +79,7 @@ include::./Tables/Table_3.5.csv[]
 
 == Code and Flag Tables used in Section 4 (Horizontal Domain Section)
 
-=== Code Table 4.0 – Horizontal Domain template number
+=== Code Table 4.0 – Horizontal Domain Template number
 
 [format="csv", options="header"]
 |===
@@ -169,5 +169,67 @@ Trapezoidal: latexmath:[K = J, K > M, N(m) = J]
 [format="csv", options="header"]
 |===
 include::./Tables/Table_4.6.csv[]
+|===
+
+== Code Tables used in Section 5 (Vertical Domain Section)
+
+=== Code Table 5.0 – Vertical Coordinate Template number
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_5.0.csv[]
+|===
+
+=== Code Table 5.1 – Fixed surface types and units
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_5.1.csv[]
+|===
+
+.Notes:
+. The Eta vertical coordinate system involves normalizing the pressure at some point on a specific level by the mean sea level pressure at that point.
+. Hybrid height level (Code figure 118) can be defined as:
++
+latexmath:[z(k) = A(k) + B(k) * orog]
++
+(latexmath:[k] = 1,...,NLevels; latexmath:[orog] = orography; latexmath:[z(k)] = height in metres at level latexmath:[k])
+. Hybrid pressure level, for which Code figure 119 shall be used instead of 105, can be defined as:
++
+latexmath:[p(k) = A(k) + B(k) * sp]
++
+(latexmath:[k] = 1,...,NLevels; latexmath:[sp] = surface pressure; latexmath:[p(k)] = pressure at level latexmath:[k])
+
+=== Code Table 5.2 – Algorithm to compute height, depth or pressure level
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_5.2.csv[]
+|===
+
+.Note:
+. The layers are defined by the pressures at the interfaces between them (the ‘half-levels’), and these pressures are given by
++
+[latexmath]
+++++++++++++++++++++
+\[p_{k+1/2} = A_{k+1/2} + B_{k+1/2} * p_{s} \;\;\quad(1)\] 
+++++++++++++++++++++
++
+for latexmath:[0 \leq k \leq NLEV]. The latexmath:[A_{k+1/2}] and latexmath:[B_{k+1/2}] are constants whose values effectively define the vertical coordinate and ps is the surface pressure field.
++
+The values of the latexmath:[A_{k+1/2}] and latexmath:[B_{k+1/2}] for all latexmath:[0 \leq k \leq NLEV] are the list of parameters and latexmath:[p_{s}] is the auxiliary field needed to compute the pressure latexmath:[p_{k}] associated with each model level (middle of layer) from 
++
+[latexmath]
+++++++++++++++++++++
+\[p_{k} = 1/2 (p_{k−1/2} + p_{k+1/2})\]
+++++++++++++++++++++
++
+with latexmath:[1 \leq k \leq NLEV] by using (1) and the surface pressure.
+
+=== Code Table 5.3 – Verification checksum algorithm
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_5.3.csv[]
 |===
 

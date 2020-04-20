@@ -1,0 +1,4 @@
+Byte No.,Content
+1-4,NP - Number of parameters
+5,"Algorithm to compute height, depth or pressure level (see Code Table 5.2)"
+6-6+NP*4, List of parameters (IEEE 32-bit floating-point)

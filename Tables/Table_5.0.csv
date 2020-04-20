@@ -1,0 +1,12 @@
+Code figure,Meaning
+0,Vertical level 
+1,Vertical layer
+2,Model level with list of parameters
+3,Model layer with list of parameters
+4,Model level with list of parameters and URL of auxiliary fields
+5,Model level with URL of list of parameters and URL of auxiliary fields
+6,Layer of model level with list of parameters and URL of auxiliary fields
+7,Layer of model level with URL of list of parameters and URL of auxiliary fields
+8–32767,Reserved
+32768–65534,Reserved for local use
+65535,Missing

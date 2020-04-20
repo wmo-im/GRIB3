@@ -231,3 +231,66 @@ scheme://[host[:port]]/path[?query]
 where port and query are optional and can be missing.
 . The number of bytes NN is dictated by the verification checksum algorithm. Note that NN = 0 if the checksum algorithm is set to "missing".
 
+== Components used in Templates of Section 5 (Vertical Domain Section)
+
+=== Vertical Coordinate Template Component 5.0 – Vertical level 
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_5.0.csv[]
+|===
+
+=== Vertical Coordinate Template Component 5.1 – Vertical layer 
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_5.1.csv[]
+|===
+
+=== Vertical Coordinate Template Component 5.2 – Model level
+
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_5.2.csv[]
+|===
+
+=== Vertical Coordinate Template Component 5.3 – Model level parameters list  
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_5.3.csv[]
+|===
+
+=== Vertical Coordinate Template Component 5.4 – URL of auxiliary fields for model levels
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_5.4.csv[]
+|===
+
+.Notes:
+. A URL is a Uniform Resource Locator that is identifying a web resource and is used in this context to locate and retrieve a GRIB message providing the template to be used. The syntax of the URL is:
++
+[.text-center]
+scheme://[host[:port]]/path[?query]
++
+where port and query are optional and can be missing.
+. The number of bytes NN is dictated by the verification checksum algorithm. Note that NN = 0 if the checksum algorithm is set to "missing".
+
+=== Vertical Coordinate Template Component 5.5 – URL of model level parameters list
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_5.5.csv[]
+|===
+
+.Notes:
+. A URL is a Uniform Resource Locator that is identifying a web resource and is used in this context to locate and retrieve a GRIB message providing the template to be used. The syntax of the URL is:
++
+[.text-center]
+scheme://[host[:port]]/path[?query]
++
+where port and query are optional and can be missing.
+. The number of bytes NN is dictated by the verification checksum algorithm. Note that NN = 0 if the checksum algorithm is set to "missing".
+
