@@ -1,0 +1,2 @@
+Byte No.,Content
+1–nn,"Bitmap – Contiguous bits with a bit to data point correspondence, ordered as defined in Horizontal Domain Section. A bit set to 1 implies the presence of a data value at the corresponding data point, whereas a value of 0 implies the absence of such a value."

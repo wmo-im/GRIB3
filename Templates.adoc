@@ -448,3 +448,36 @@ include::./Templates/Template_6.1.csv[]
 include::./Templates/Template_6.2.csv[]
 |===
 
+== Templates used in Section 8 (Data Representation Section)
+
+=== Data Representation Template 8.0 – Simple packing
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_8.0.csv[]
+|===
+
+=== Data Representation Template 8.1 –IEEE floating point
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_8.1.csv[]
+|===
+
+== Templates used in Section 9 (Overlay Section)
+
+=== Overlay Template 9.0 – Bitmap
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_9.0.csv[]
+|===
+
+=== Overlay Template 9.1 -  URL
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_9.1.csv[]
+|===
+
+

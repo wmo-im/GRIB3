@@ -1,0 +1,8 @@
+Code figure,Meaning
+0,Reserved
+1,IEEE 32-bit (I=4 in section 7)
+2,IEEE 64-bit (I=8 in section 7)
+3,IEEE 128-bit (I=16 in section 7)
+4-191,Reserved
+192–254,Reserved for local use
+255,Missing

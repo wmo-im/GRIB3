@@ -1,0 +1,6 @@
+Code figure,Meaning
+0,Simple packing
+1,IEEE floating point
+2–49151,Reserved
+49152–65534,Reserved for local use
+65535,Missing

@@ -280,3 +280,50 @@ latexmath:[N_{-0.5}] is the number of members whose anomaly is lower than -0.5 t
 +
 and latexmath:[N] the total number of members.
 
+== Code Tables used in Section 8 (Data Representation Section)
+
+=== Code Table 8.0 – Data representation template number
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_8.0.csv[]
+|===
+
+=== Code Table 8.1 – Type of original field values
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_8.1.csv[]
+|===
+
+=== Code Table 8.2 – Missing value management 
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_8.2.csv[]
+|===
+
+=== Code Table 8.3 – Precision of floating-point numbers
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_8.3.csv[]
+|===
+
+== Code Tables used in Section 9 (Overlay Section)
+
+=== Code Table 9.0 –Overlay template number
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_9.0.csv[]
+|===
+
+=== Code Table 9.1 – Verification checksum algorithm
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_9.1.csv[]
+|===
+
+

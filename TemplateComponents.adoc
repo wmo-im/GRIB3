@@ -324,4 +324,52 @@ include::./TemplateComponents/TemplateComponent_6.2.csv[]
 include::./TemplateComponents/TemplateComponent_6.3.csv[]
 |===
 
+== Components used in templates of Section 8 (Data Representation Section)
 
+=== Data Representation Template Component 8.0 – Simple packing
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_8.0.csv[]
+|===
+
+.Notes:
+. Management of explicitly missing values is an alternative to bit-map use within Section 9; it is intended to reduce the whole GRIB message size and to provide better performance when decoding data with missing values.
+. There may be two types of missing value(s), such as to make a distinction between static misses (for instance, due to a land/sea mask) and occasional misses.
+. As an extra option, substitute value(s) for missing data may be specified. If not wished (or not applicable), all bits should be set to 1 for relevant substitute value(s).
+. If substitute value(s) are specified, type of content should be consistent with original field values (floating-point - and then IEEE 32-bit encoded-, or integer).
+. If primary missing values are used, such values are encoded with all bits set to 1 at packed data level.
+. If secondary missing values are used, such values are encoded with all bits set to 1, except the last one set to 0, at packed data level.
+
+
+=== Data Representation Template Component 8.1 –IEEE floating point
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_8.1.csv[]
+|===
+
+== Components used in Templates of Section 9 (Overlay Section)
+
+=== Overlay Template Component 9.0 – Bitmap
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_9.0.csv[]
+|===
+
+=== Overlay Template Component 9.1 – URL
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_9.1.csv[]
+|===
+
+.Notes:
+. A URL is a Uniform Resource Locator that is identifying a web resource and is used in this context to locate and retrieve a GRIB message providing the template to be used. The syntax of the URL is:
++
+[.text-center]
+scheme://[host[:port]]/path[?query]
++
+where port and query are optional and can be missing.
+. The number of bytes NN is dictated by the verification checksum algorithm. Note that NN = 0 if the checksum algorithm is set to "missing".

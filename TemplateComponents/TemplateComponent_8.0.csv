@@ -1,0 +1,9 @@
+Byte No.,Content
+1–4,Reference value (R) (IEEE 32-bit floating-point value)
+5–6,Binary scale factor (E)
+7–8,Decimal scale factor (D)
+9,"Number of bits used for each packed value for simple packing, or for each group reference value for complex packing or spatial differencing"
+10,Type of original field values (see Code Table 8.1)
+11,Missing value management (see Code Table 8.2)
+12–15,Primary missing value substitute 
+16–19,Secondary missing value substitute

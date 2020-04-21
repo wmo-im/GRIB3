@@ -1,0 +1,5 @@
+Code figure,Meaning
+0,Bitmap
+1–49151,Reserved
+49152–65534,Reserved for local use
+65535,Missing
