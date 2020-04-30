@@ -1,0 +1,16 @@
+Number,Parameter,Units
+0,Clear sky probability,%
+1,Cloud top temperature,K
+2,Cloud top pressure,Pa
+3,Cloud type,(Code table 7.218)
+4,Cloud phase,(Code table 7.218)
+5,Cloud optical depth,Numeric
+6,Cloud particle effective radius,m
+7,Cloud liquid water path,kg m–2
+8,Cloud ice water path,kg m–2
+9,Cloud albedo,Numeric
+10,Cloud emissivity,Numeric
+11,Effective absorption optical depth ratio,Numeric
+12-191,Reserved,
+192-254,Reserved for local use,
+255,Missing,

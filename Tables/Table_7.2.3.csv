@@ -1,0 +1,10 @@
+Category,Description
+0,Reserved
+1,Reserved
+2,Cloud properties
+3,Flight rule conditions
+4,Volcanic ash
+5,Sea-surface temperature
+6–191,Reserved
+192–254,Reserved for local use
+255,Missing

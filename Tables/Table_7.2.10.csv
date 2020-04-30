@@ -1,0 +1,10 @@
+Category,Description
+0,Waves
+1,Currents
+2,Ice
+3,Surface properties
+4,Subsurface properties
+5–190,Reserved
+191,Miscellaneous
+192–254,Reserved for local use
+255,Missing

@@ -1,0 +1,6 @@
+Code figure,Meaning
+0–90,Elevation in increments of 100 m
+91–190,Reserved
+191,Clouds
+192-254,Reserved for local use
+255,Missing

@@ -1,0 +1,9 @@
+Code figure,Meaning
+0,Reserved
+1,Stable
+2,Mechanically driven turbulence
+3,Forced convection
+4,Free convection
+5–191,Reserved
+192–254,Reserved for local use
+255,Missing

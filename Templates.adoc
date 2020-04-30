@@ -448,6 +448,43 @@ include::./Templates/Template_6.1.csv[]
 include::./Templates/Template_6.2.csv[]
 |===
 
+== Templates used in Section 7 (Observable Property Section)
+
+=== Observable Property Template 7.0 – Observable property by discipline, category and number
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_7.0.csv[]
+|===
+
+=== Observable Property Template 7.1 –Observable Property with units conversion
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_7.1.csv[]
+|===
+
+=== Observable Property Template 7.2 – Atmospheric chemical or physical constituents
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_7.2.csv[]
+|===
+
+=== Observable Property Template 7.3 – Aerosol physical property
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_7.3.csv[]
+|===
+
+=== Observable Property Template 7.4 – Aerosol optical property
+
+[format="csv", options="header"]
+|===
+include::./Templates/Template_7.4.csv[]
+|===
+
 == Templates used in Section 8 (Data Representation Section)
 
 === Data Representation Template 8.0 – Simple packing

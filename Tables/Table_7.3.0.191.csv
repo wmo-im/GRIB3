@@ -1,0 +1,8 @@
+Number,Parameter,Units
+0,Seconds prior to initial reference time (defined in Section 1),s
+1,Geographical latitude,°N
+2,Geographical longitude,°E
+3,Days since last observation,d
+4–191,Reserved,
+192–254,Reserved for local use,
+255,Missing,

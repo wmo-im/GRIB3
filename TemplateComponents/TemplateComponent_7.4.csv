@@ -1,0 +1,6 @@
+Byte No.,Content
+1,Type of interval for first and second wavelength (see Code Table 7.4)
+2,Scale factor of first wavelength
+3–6,Scaled value of first wavelength in metres
+7,Scale factor of second wavelength
+8–11,Scaled value of second wavelength in metres

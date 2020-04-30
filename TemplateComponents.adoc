@@ -324,6 +324,48 @@ include::./TemplateComponents/TemplateComponent_6.2.csv[]
 include::./TemplateComponents/TemplateComponent_6.3.csv[]
 |===
 
+== Components used in Templates of Section 7 (Observable Property Section)
+
+=== Observable Property Template Component 7.0 – Observable property by discipline, category and number
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_7.0.csv[]
+|===
+
+=== Observable Property Template Component 7.1 – Units conversion
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_7.1.csv[]
+|===
+
+.Notes:
+. Units conversion scale factor (ucs) and offset (uco) shall be used to encode fields in units different from the units reported in table 7.3. If the values encoded in the GRIB message are ve, the values v in the units provided in table 7.3 shall be: v=ucs * ve+ uco. 
+. Encoded as IEEE 32 bits floating point values.
+
+
+=== Observable Property Template Component 7.2 – Chemical or physical constituents
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_7.2.csv[]
+|===
+
+=== Observable Property Template Component 7.3 – Aerosol size 
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_7.3.csv[]
+|===
+
+=== Observable Property Template Component 7.4 – Radiation wavelength interval
+
+[format="csv", options="header"]
+|===
+include::./TemplateComponents/TemplateComponent_7.4.csv[]
+|===
+
 == Components used in templates of Section 8 (Data Representation Section)
 
 === Data Representation Template Component 8.0 – Simple packing

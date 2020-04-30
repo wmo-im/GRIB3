@@ -1,0 +1,10 @@
+Number,Parameter,Units
+0,Global solar irradiance (see Note 1),W m–2
+1,Global solar exposure (see Note 2),J m–2
+2,Direct solar irradiance (see Note 3),W m–2
+3,Direct solar exposure (see Note 4),J m–2
+4,Diffuse solar irradiance (see Note 5),W m–2
+5,Diffuse solar exposure (see Note 6),J m–2
+6-191,Reserved,
+192-254,Reserved for local use,
+255,Missing,

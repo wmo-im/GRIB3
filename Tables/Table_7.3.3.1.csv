@@ -1,0 +1,32 @@
+Number,Parameter,Units
+0,Estimated precipitation,kg m–2
+1,Instantaneous rain rate,kg m–2 s–1
+2,Cloud top height,m
+3,Cloud top height quality indicator,(Code table 7.219)
+4,Estimated u-component of wind,m s–1
+5,Estimated v-component of wind,m s–1
+6,Number of pixel used,Numeric
+7,Solar zenith angle,°
+8,Relative azimuth angle,°
+9,Reflectance in 0.6 micron channel,%
+10,Reflectance in 0.8 micron channel,%
+11,Reflectance in 1.6 micron channel,%
+12,Reflectance in 3.9 micron channel,%
+13,Atmospheric divergence,s–1
+14,Cloudy brightness temperature,K
+15,Clear-sky brightness temperature,K
+16,Cloudy radiance (with respect to wave number),W m–1 sr–1
+17,Clear-sky radiance (with respect to wave number),W m–1 sr–1
+18,Reserved,
+19,Wind speed,m s–1
+20,Aerosol optical thickness at 0.635 μm,
+21,Aerosol optical thickness at 0.810 μm,
+22,Aerosol optical thickness at 1.640 μm,
+23,Angstrom coefficient,
+24–26,Reserved,
+27,Bidirectional reflectance factor (see Note 1),numeric
+28,Brightness temperature,K
+29,Scaled radiance (see Note 2),numeric
+30–191,Reserved,
+192–254,Reserved for local use,
+255,Missing,

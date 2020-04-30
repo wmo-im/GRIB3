@@ -1,0 +1,9 @@
+Code figure,Meaning
+0–49,Reserved
+50,No-snow/no-cloud
+51–99,Reserved
+100,Clouds
+101–249,Reserved
+250,Snow
+251–254,Reserved for local use
+255,Missing

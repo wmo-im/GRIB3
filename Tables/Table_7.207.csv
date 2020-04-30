@@ -1,0 +1,10 @@
+Code figure,Meaning
+0,None
+1,Light
+2,Moderate
+3,Severe
+4,Trace
+5,Heavy
+6–191,Reserved
+192–254,Reserved for local use
+255,Missing

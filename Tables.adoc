@@ -280,6 +280,579 @@ latexmath:[N_{-0.5}] is the number of members whose anomaly is lower than -0.5 t
 +
 and latexmath:[N] the total number of members.
 
+== Code Tables used in Section 7 (Observable Property Section)
+
+=== Code table 7.0 – Observable property template number
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.0.csv[]
+|===
+
+=== Code table 7.1 – Discipline 
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.1.csv[]
+|===
+
+=== Code table 7.2 – Parameter category by discipline
+
+.Note:
+. When a new category is to be added to Code table 7.1 and more than one discipline applies, the choice of discipline should be made based on the intended use of the product.
+
+==== Product discipline 0 – Meteorological products
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.2.0.csv[]
+|===
+
+==== Product discipline 1 – Hydrological products
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.2.1.csv[]
+|===
+
+==== Product discipline 2 – Land surface products
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.2.2.csv[]
+|===
+
+==== Product discipline 3 – Space  products
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.2.3.csv[]
+|===
+
+==== Product discipline 10 – Oceanographic products
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.2.10.csv[]
+|===
+
+=== Code table 7.3 – Parameter number by product discipline and parameter category
+
+.Notes:
+. By convention, the flux sign is positive if downwards.
+. When a new parameter is to be added to Code table 7.3 and more than one category applies, the choice of category should be made based on the intended use of the product. The discipline and category are an important part of any product definition, so it is possible to have the same parameter name in more than one category. For example, “water temperature” in discipline 10 (oceanographic products), category 4 (subsurface properties) is used for reporting water temperature in the ocean or open sea, and is not the same as “water temperature” in discipline 1 (hydrological products), category 2 (inland water and sediment properties), which is used for reporting water temperature in freshwater lakes and rivers.
+
+==== Product discipline 0 – Meteorological products, parameter category 0: temperature
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.0.csv[]
+|===
+
+.Note:
+. Apparent temperature is the perceived outdoor temperature, caused by a combination of phenomena, such as air temperature, relative humidity and wind speed.
+
+
+==== Product discipline 0 – Meteorological products, parameter category 1: moisture
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.1.csv[]
+|===
+
+.Note:
+. Total precipitation/snowfall rate stands for the sum of convective and large-scale precipitation/snowfall rate.
+
+==== Product discipline 0 – Meteorological products, parameter category 2: momentum
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.2.csv[]
+|===
+
+.Notes:
+. In relation to local coordinate axes at a cell edge. 
+. This parameter is described in more detail by (a) Lee, S. and I.M. Held, 1993: Baroclinic wave packets in models and observations. J Atmos. Sci., 50:1413-1428, (b) Chang, E.K.M., 1993: Downstream development of baroclinic waves as inferred from regression analysis. J. Atmos. Sci., 50:2038-2053, (c) Archambault, H.M., D. Keyser and L.F. Bosart, 2010: Relationships between large-scale regime transitions and major cool-season precipitation events in the northeastern United States. Mon Wea. Rev., 138:3454-3473, and (d) Zimin, A.V., I. Szunyogh, B.R. Hung and E. Orr, 2006: Extracting envelopes of nonzonally propagating Rossby wave packets. Mon. Wea. Review, 134:1329–1333.
+
+==== Product discipline 0 – Meteorological products, parameter category 3: mass
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.3.csv[]
+|===
+
+==== Product discipline 0 – Meteorological products, parameter category 4: short-wave radiation
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.4.csv[]
+|===
+
+.Note:
+. The Global Solar UVI is formulated using the International Commission on Illumination (CIE) reference action spectrum for UV-induced erythema on the human skin (ISO 17166:1999/CIE S 007/E-1998).
++
+It is a measure of the UV radiation that is relevant to and defined for a horizontal surface. The UVI is a unitless quantity defined by the formula: 
++
+[latexmath]
+++++++++++++++++++++
+\[I_{UV} = K_{er}\int_{250nm}^{400nm}E_{\lambda}S_{er}d\lambda\]
+++++++++++++++++++++
++
+where latexmath:[E_{\lambda}] is the solar spectral irradiance expressed in W / (m2·nanometre) at wavelength latexmath:[\lambda] and latexmath:[d\lambda] is the wavelength interval used in the summation. latexmath:[S_{er}(\lambda)] is the erythema reference action spectrum, and latexmath:[K_{er}] is a constant equal to 40 m2 / W.
+
+==== Product discipline 0 – Meteorological products, parameter category 5: long-wave radiation
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.5.csv[]
+|===
+
+==== Product discipline 0 – Meteorological products, parameter category 6: cloud
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.6.csv[]
+|===
+
+.Note:
+. The sum of the water and ice fractions may exceed the total due to overlap between the volumes containing ice and those containing liquid water.
+
+==== Product discipline 0 – Meteorological products, parameter category 7: thermodynamic stability indices
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.7.csv[]
+|===
+
+==== Product discipline 0 – Meteorological products, parameter category 13: aerosols
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.13.csv[]
+|===
+
+==== Product discipline 0 – Meteorological products, parameter category 14: trace gases
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.14.csv[]
+|===
+
+==== Product discipline 0 – Meteorological products, parameter category 15: radar
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.15.csv[]
+|===
+
+==== Product Discipline 0 – Meteorological products, parameter category 16: forecast radar imagery
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.16.csv[]
+|===
+
+.Note:
+. Decibel (dB) is a logarithmic measure of the relative power, or of the relative values of two flux densities, especially of sound intensities and radio and radar power densities.  In radar meteorology, the logarithmic scale (dBZ) is used for measuring radar reflectivity factor (obtained from the American Meteorological Society Glossary of Meteorology).
+
+==== Product discipline 0 – Meteorological products, parameter category 17: electrodynamics
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.17.csv[]
+|===
+
+==== Product discipline 0 – Meteorological products, parameter category 18: nuclear/radiology
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.18.csv[]
+|===
+
+.Notes:
+. Statistical process 1 (Accumulation) does not change units. It is recommended to use another parameter without the word “time-integrated” in its name and accumulation in PDT. 
+. Parameters from 10 onward may be used in combination with templates containing the Template Component 7.2 and Common Code table C–14 to represent any type of radioisotope.
+
+==== Product discipline 0 – Meteorological products, parameter category 19: physical atmospheric
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.19.csv[]
+|===
+
+.Notes:
+. Parameter deprecated. See Regulation 92.6.2 and use another parameter instead.
+. Supercooled large droplets (SLD) are defined as those with a diameter greater than 50 microns.
+
+==== Product discipline 0 – Meteorological products, parameter category 20: atmospheric chemical constituents
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.20.csv[]
+|===
+
+.Note:
+. FirstFixedSurface and SecondFixedSurface of Code table 5.1 (Fixed surface types and units) to define the vertical extent, i.e. FirstFixedSurface can be set to 1 (Ground or water surface) and SecondFixedSurface set to 7 (Tropopause) for a restriction to the troposphere.
+
+==== Product discipline 0 – Meteorological products, parameter category 190: CCITT IA5 string
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.190.csv[]
+|===
+
+==== Product discipline 0 – Meteorological products, parameter category 191: miscellaneous
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.0.191.csv[]
+|===
+
+==== Product discipline 1 – Hydrological products, parameter category 0: hydrology basic products
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.1.0.csv[]
+|===
+
+.Notes:
+. Remotely sensed snow cover is expressed as a field of dimensionless, thematic values. The currently accepted values are for no-snow/no-cloud, 50, for clouds, 100, and for snow, 250 (see Code table 7.215).
+. A data field representing snow coverage by elevation portrays at which elevations there is a snow pack. The elevation values typically range from 0 to 90 in 100-metre increments. A value of 253 is used to represent a no-snow/no-cloud data point. A value of 254 is used to represent a data point at which snow elevation could not be estimated because of clouds obscuring the remote sensor (when using aircraft or satellite measurements).
+. Snow water equivalent per cent of normal is stored in per cent of normal units. For example, a value of 110 indicates 110 per cent of the normal snow water equivalent for a given depth of snow.
+
+==== Product discipline 1 – Hydrological products, parameter category 2: inland water and sediment properties
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.1.2.csv[]
+|===
+
+==== Product discipline 2 – Land surface products, parameter category 0: vegetation/biomass
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.2.0.csv[]
+|===
+
+.Note:
+. For parameter 38 (Parameter category 0), ice volume is expressed as if the ice content were melted to liquid water and then its volume measured in the liquid state. This may be understood in the same manner as water equivalent snow depth.
+
+==== Product discipline 2 – Land surface products, parameter category 3: soil products
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.2.3.csv[]
+|===
+
+.Note:
+. It is recommended not to use this parameter, but another one with a more descriptive unit.
+
+==== Product discipline 2 – Land surface products, parameter category 4: fire weather products
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.2.4.csv[]
+|===
+
+.Note:
+. The Fosberg index denotes the potential influence of weather on a wildland fire. It takes into account the combined effects of temperature, wind speed, relative humidity and precipitation. Higher values indicate a higher potential impact.
+
+==== Product discipline 2 – Land surface products, parameter category 5: glaciers and inland ice
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.2.5.csv[]
+|===
+
+==== Product discipline 3 – Space products, parameter category 0: image format products
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.2.5.csv[]
+|===
+
+==== Product discipline 3 – Space products, parameter category 1: quantitative products
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.3.1.csv[]
+|===
+
+.Notes:
+. The ratio of the radiant flux reflected by a surface to that reflected into the same reflected-beam geometry and wavelength range by an ideal (lossless) and diffuse (Lambertian) standard surface, irradiated under the same conditions.
+. Top of atmosphere radiance observed by a sensor, multiplied by pi and divided by the in-band solar irradiance. 
+
+==== Product discipline 3 – Space products, parameter category 2: cloud properties
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.3.2.csv[]
+|===
+
+==== Product discipline 3 – Space products, parameter category 3: flight rule conditions
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.3.3.csv[]
+|===
+
+==== Product discipline 3 – Space products, parameter category 4: volcanic ash
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.3.4.csv[]
+|===
+
+==== Product discipline 3 – Space products, parameter category 5: sea-surface temperature
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.3.5.csv[]
+|===
+
+.Notes:
+. Theoretical temperature at the precise air-sea interface.
+. Temperature of the water across a very small depth (approximately the upper 20 micrometers).
+. Temperature at the base of the thermal skin layer.
+. Temperature of the water column free of diurnal temperature variability or equal to the SST sub-skin in the absence of any diurnal signal.
+
+==== Product discipline 3 – Space products, parameter category 6: solar radiation
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.3.6.csv[]
+|===
+
+.Notes:
+. The solar flux per unit area received from a solid angle of 2π sr on a horizontal surface.
+. Time integral of global solar irradiance.
+. The solar flux per unit area received from the solid angle of the sun’s disc on a surface normal to the sun direction.
+. Time integral of direct solar irradiance.
+. The solar flux per unit area received from a solid angle of 2π sr, except for the solid angle of the sun's disc, on a horizontal surface.
+. Time integral of diffuse solar irradiance. 
+
+==== Product discipline 10 – Oceanographic products, parameter category 0: waves
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.10.0.csv[]
+|===
+
+.Note:
+. Further information concerning the wave parameters can be found in the Guide to Wave Analysis and Forecasting (WMO-No. 702).
+
+==== Product discipline 10 – Oceanographic products, parameter category 1: currents
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.10.1.csv[]
+|===
+
+==== Product discipline 10 – Oceanographic products, parameter category 2: ice
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.10.2.csv[]
+|===
+
+.Note:
+. Ice internal pressure or stress (Pa m) is the integrated pressure across the vertical thickness of a layer of ice. It is produced when concentrated ice reacts to external forces such as wind and ocean currents.
+
+==== Product discipline 10 – Oceanographic products, parameter category 3: surface properties
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.10.3.csv[]
+|===
+
+==== Product discipline 10 – Oceanographic products, parameter category 4: subsurface properties
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.10.4.csv[]
+|===
+
+==== Product discipline 10 – Oceanographic products, parameter category 191: miscellaneous
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.3.10.191.csv[]
+|===
+
+=== Code table 7.4 – Type of Interval
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.4.csv[]
+|===
+
+=== Code table 7.201 – Precipitation type
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.201.csv[]
+|===
+
+=== Code table 7.202 – Precipitable water category
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.202.csv[]
+|===
+
+=== Code table 7.203 – Cloud type
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.203.csv[]
+|===
+
+.Note:
+. Code figures 11–20 indicate all four layers were used and ground-based fog is beneath the lowest layer.
+
+=== Code table 7.204 – Thunderstorm coverage
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.204.csv[]
+|===
+
+=== Code table 7.205 – Presence of aerosol
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.205.csv[]
+|===
+
+=== Code table 7.206 – Volcanic ash
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.206.csv[]
+|===
+
+=== Code table 7.207 – Icing
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.207.csv[]
+|===
+
+=== Code table 7.208 – Turbulence
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.208.csv[]
+|===
+
+=== Code table 7.209 – Planetary boundary-layer regime
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.209.csv[]
+|===
+
+=== Code table 7.210 – Contrail intensity
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.210.csv[]
+|===
+
+=== Code table 7.211 – Contrail engine type
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.211.csv[]
+|===
+
+=== Code table 7.212 – Land use
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.212.csv[]
+|===
+
+=== Code table 7.213 – Soil type
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.213.csv[]
+|===
+
+=== Code table 7.215 – Remotely sensed snow coverage
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.215.csv[]
+|===
+
+=== Code table 7.216 – Elevation of snow-covered terrain
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.216.csv[]
+|===
+
+=== Code table 7.217 – Cloud mask type
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.217.csv[]
+|===
+
+=== Code table 7.218 – Pixel scene type
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.218.csv[]
+|===
+
+=== Code table 7.219 – Cloud top height quality indicator
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.219.csv[]
+|===
+
+=== Code table 7.222 – Categorical result
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.222.csv[]
+|===
+
+=== Code table 7.223 – Fire detection indicator
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.223.csv[]
+|===
+
+=== Code table 7.224 – Categorical outlook
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.224.csv[]
+|===
+
+=== Code table 7.225 – Weather
+(see FM 94 BUFR/FM 95 CREX Code table 0 20 003 – Present weather)
+
+=== Code table 7.227 – Icing scenario (weather/cloud classification)
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.227.csv[]
+|===
+
+=== Code table 7.243 – Tile class
+
+[format="csv", options="header"]
+|===
+include::./Tables/Table_7.243.csv[]
+|===
+
 == Code Tables used in Section 8 (Data Representation Section)
 
 === Code Table 8.0 – Data representation template number

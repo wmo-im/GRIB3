@@ -1,0 +1,5 @@
+Number,Parameter,Units
+0,Aerosol type,(Code table 7.205)
+1–191,Reserved,
+192–254,Reserved for local use,
+255,Missing,

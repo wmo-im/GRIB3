@@ -1,0 +1,9 @@
+Code figure,Meaning
+0,None
+1,Isolated (1–2%)
+2,Few (3–5%)
+3,Scattered (6–45%)
+4,Numerous (> 45%)
+5–191,Reserved
+192–254,Reserved for local use
+255,Missing

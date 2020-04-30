@@ -1,0 +1,19 @@
+Code figure,Meaning
+0,No risk area 
+1,Reserved 
+2,General thunderstorm risk area 
+3,Reserved 
+4,Slight risk area 
+5,Reserved 
+6,Moderate risk area 
+7,Reserved 
+8,High risk area 
+9–10,Reserved 
+11,Dry thunderstorm (dry lightning) risk area 
+12–13,Reserved 
+14,Critical risk area 
+15–17,Reserved 
+18,Extremely critical risk area 
+19–191,Reserved
+192-254,Reserved for local use
+255,Missing

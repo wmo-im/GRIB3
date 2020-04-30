@@ -1,0 +1,9 @@
+Code figure,Meaning
+0,None
+1,General
+2,Convective
+3,Stratiform
+4,Freezing
+5–191,Reserved
+192–254,Reserved for local use
+255,Missing value

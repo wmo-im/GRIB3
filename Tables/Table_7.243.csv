@@ -1,0 +1,43 @@
+Code figure,Meaning
+0,Reserved
+1,Evergreen broadleaved forest
+2,Deciduous broadleaved closed forest
+3,Deciduous broadleaved open forest
+4,Evergreen needle-leaf forest
+5,Deciduous needle-leaf forest
+6,Mixed leaf trees
+7,Freshwater flooded trees
+8,Saline water flooded trees
+9,Mosaic tree/natural vegetation
+10,Burnt tree cover
+11,Evergreen shrubs closed-open
+12,Deciduous shrubs closed-open
+13,Herbaceous vegetation closed-open
+14,Sparse herbaceous or grass
+15,Flooded shrubs or herbaceous
+16,Cultivated and managed areas
+17,Mosaic crop/tree/natural vegetation
+18,Mosaic crop/shrub/grass
+19,Bare areas
+20,Water
+21,Snow and ice
+22,Artificial surface
+23,Ocean
+24,Irrigated croplands
+25,Rainfed croplands
+26,Mosaic cropland (50–70%) – vegetation (20–50%)
+27,Mosaic vegetation (50–70%) – cropland (20–50%)
+28,Closed broadleaved evergreen forest
+29,Closed needle-leaved evergreen forest
+30,Open needle-leaved deciduous forest
+31,Mixed broadleaved and needle-leaved forest
+32,Mosaic shrubland (50–70%) – grassland (20–50%)
+33,Mosaic grassland (50–70%) – shrubland (20–50%)
+34,Closed to open shrubland
+35,Sparse vegetation
+36,Closed to open forest regularly flooded
+37,Closed forest or shrubland permanently flooded
+38,Closed to open grassland regularly flooded
+39,Undefined
+40–32767,Reserved
+32768–,Reserved for local use

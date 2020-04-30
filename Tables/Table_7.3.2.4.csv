@@ -1,0 +1,16 @@
+Number,Parameter,Units
+0,Fire outlook,(Code table 7.224)
+1,Fire outlook due to dry thunderstorm,(Code table 7.224)
+2,Haines index,Numeric
+3,Fire burned area,%
+4,Fosberg index (see Note 1),Numeric
+5,Forest Fire Weather Index,Numeric
+6,Fine Fuel Moisture Code,Numeric
+7,Duff Moisture Code,Numeric
+8,Drought,Numeric
+9,Initial Fire Spread Index,Numeric
+10,Fire Buildup Index,Numeric
+11,Fire Daily Severity Rating,Numeric
+12–191,Reserved,
+192–254,Reserved for local use,
+255,Missing,

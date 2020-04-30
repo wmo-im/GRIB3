@@ -1,0 +1,22 @@
+Category,Description
+0,Temperature
+1,Moisture
+2,Momentum
+3,Mass
+4,Short-wave radiation
+5,Long-wave radiation
+6,Cloud
+7,Thermodynamic stability indices
+8,Kinematic stability indices
+9–12,Reserved
+13,Aerosols
+14,"Trace gases (e.g. ozone, CO2)"
+15,Radar
+16,Forecast radar imagery
+17,Electrodynamics
+18,Reserved
+19,Physical atmospheric properties
+20,Atmospheric chemical constituents
+21–191,Reserved
+192–254,Reserved for local use
+255,Missing

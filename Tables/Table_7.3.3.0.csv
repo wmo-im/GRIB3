@@ -1,0 +1,14 @@
+Number,Parameter,Units
+0,Scaled radiance,Numeric
+1,Scaled albedo,Numeric
+2,Scaled brightness temperature,Numeric
+3,Scaled precipitable water,Numeric
+4,Scaled lifted index,Numeric
+5,Scaled cloud top pressure,Numeric
+6,Scaled skin temperature,Numeric
+7,Cloud mask,(Code table 7.217)
+8,Pixel scene type,(Code table 7.218)
+9,Fire detection indicator,(Code table 7.223)
+10–191,Reserved,
+192–254,Reserved for local use,
+255,Missing,

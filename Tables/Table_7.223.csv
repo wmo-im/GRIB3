@@ -1,0 +1,7 @@
+Code figure,Meaning
+0,  No fire detected
+1,  Possible fire detected
+2,  Probable fire detected
+3-191,Reserved
+192-254,Reserved for local use
+255,Missing

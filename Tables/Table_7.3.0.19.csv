@@ -1,0 +1,33 @@
+Number,Parameter,Units
+0,Visibility,m
+1,Albedo,%
+2,Thunderstorm probability,%
+3,Mixed layer depth,m
+4,Volcanic ash,(Code table 7.206)
+5,Icing top,m
+6,Icing base,m
+7,Icing,(Code table 7.207)
+8,Turbulence top,m
+9,Turbulence base,m
+10,Turbulence,(Code table 7.208)
+11,Turbulent kinetic energy,J kg–1
+12,Planetary boundary-layer regime,(Code table 7.209)
+13,Contrail intensity,(Code table 7.210)
+14,Contrail engine type,(Code table 7.211)
+15,Contrail top,m
+16,Contrail base,m
+17,Maximum snow albedo (see Note 1),%
+18,Snow free albedo,%
+19,Snow albedo,%
+20,Icing,%
+21,In-cloud turbulence,%
+22,Clear air turbulence (CAT),%
+23,Supercooled large droplet probability (see Note 2),%
+24,Convective turbulent kinetic energy,J kg–1
+25,Weather,(Code table 7.225)
+26,Convective outlook,(Code table 7.224)
+27,Icing scenario,(Code table 7.227)
+28,Mountain wave turbulence (eddy dissipation rate),m2/3 s–1
+29–191, Reserved,
+192–254,Reserved for local use,
+255,Missing,

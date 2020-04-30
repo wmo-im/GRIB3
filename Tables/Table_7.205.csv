@@ -1,0 +1,6 @@
+Code figure,Meaning
+0,Aerosol not present
+1,Aerosol present
+2–191,Reserved
+192–254,Reserved for local use
+255,Missing

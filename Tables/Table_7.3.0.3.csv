@@ -1,0 +1,35 @@
+Number,Parameter,Units
+0,Pressure,Pa
+1,Pressure reduced to MSL,Pa
+2,Pressure tendency,Pa s–1
+3,ICAO Standard Atmosphere Reference Height,m
+4,Geopotential,m2 s–2
+5,Geopotential height,gpm
+6,Geometric height,m
+7,Standard deviation of height,m
+8,Pressure anomaly,Pa
+9,Geopotential height anomaly,gpm
+10,Density,kg m–3
+11,Altimeter setting,Pa
+12,Thickness,m
+13,Pressure altitude,m
+14,Density altitude,m
+15,5-wave geopotential height,gpm
+16,Zonal flux of gravity wave stress,N m–2
+17,Meridional flux of gravity wave stress,N m–2
+18,Planetary boundary layer height,m
+19,5-wave geopotential height anomaly,gpm
+20,Standard deviation of sub-grid scale orography,m
+21,Angle of sub-gridscale orography,rad
+22,Slope of sub-gridscale orography,Numeric
+23,Gravity wave dissipation,W m–2
+24,Anisotropy of sub-gridscale orography,Numeric
+25,Natural logarithm of pressure in Pa,Numeric
+26,Exner pressure,Numeric
+27,Updraught mass flux,kg m–2 s–1
+28,Downdraught mass flux,kg m–2 s–1
+29,Updraught detrainment rate,kg m–3 s–1
+30,Downdraught detrainment rate,kg m–3 s–1
+31–191, Reserved,
+192–254,Reserved for local use,
+255,Missing,

@@ -1,0 +1,5 @@
+Number,Parameter,Units
+0,Arbitrary text string,CCITT IA5
+1–191,Reserved,
+192–254,Reserved for local use,
+255,Missing,

@@ -1,0 +1,10 @@
+Number,Parameter,Units
+0,Interface sea-surface temperature (see Note 1),K
+1,Skin sea-surface temperature (see Note 2),K
+2,Sub-skin sea-surface temperature (see Note 3),K
+3,Foundation sea-surface temperature (see Note 4),K
+4,Estimated bias between sea-surface temperature and standard,K
+5,Estimated standard deviation between sea-surface temperature and standard,K
+6-191,Reserved,
+192-254,Reserved for local use,
+255,Missing,

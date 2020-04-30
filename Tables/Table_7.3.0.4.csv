@@ -1,0 +1,20 @@
+Number,Parameter,Units
+2,Short-wave radiation flux,W m–2
+3,Global radiation flux,W m–2
+4,Brightness temperature,K
+5,Radiance (with respect to wave number),W m–1 sr–1
+6,Radiance (with respect to wavelength),W m–3 sr–1
+7,Downward short-wave radiation flux,W m–2
+8,Upward short-wave radiation flux,W m–2
+9,Net short wave radiation flux,W m–2
+10,Photosynthetically active radiation,W m–2
+11,"Net short-wave radiation flux, clear sky",W m–2
+12,Downward UV radiation,W m–2
+13,Direct short-wave radiation flux,W m–2
+14,Diffuse short-wave radiation flux,W m–2
+15–49,Reserved,
+50,UV index (under clear sky)(see Note 1),Numeric
+51,UV index (see Note 1),Numeric
+52–191,Reserved,
+192–254,Reserved for local use,
+255,Missing,

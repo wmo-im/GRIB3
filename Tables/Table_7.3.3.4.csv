@@ -1,0 +1,13 @@
+Number,Parameter,Units
+0,Volcanic ash probability,%
+1,Volcanic ash cloud top temperature,K
+2,Volcanic ash cloud top pressure,Pa
+3,Volcanic ash cloud top height,m
+4,Volcanic ash cloud emissivity,Numeric
+5,Volcanic ash effective absorption optical depth ratio,Numeric
+6,Volcanic ash cloud optical depth,Numeric
+7,Volcanic ash column density,kg m–2
+8,Volcanic ash particle effective radius,m
+9-191,Reserved,
+192-254,Reserved for local use,
+255,Missing,

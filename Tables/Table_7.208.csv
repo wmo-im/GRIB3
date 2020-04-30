@@ -1,0 +1,9 @@
+Code figure,Meaning
+0,None (smooth)
+1,Light
+2,Moderate
+3,Severe
+4,Extreme
+5–191,Reserved
+192–254,Reserved for local use
+255,Missing
