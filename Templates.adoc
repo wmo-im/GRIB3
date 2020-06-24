@@ -1,4 +1,4 @@
-= Templates used in GRIB edition 3
+== Templates used in GRIB edition 3
 :stem: latexmath
 
 == Templates used in Section 3 (Time Domain Section)

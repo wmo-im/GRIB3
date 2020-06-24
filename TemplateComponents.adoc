@@ -1,4 +1,4 @@
-= Template Components in GRIB edition 3
+== Template Components in GRIB edition 3
 :stem: latexmath
 
 == Templates Components used in Templates of Section 3 (Time Domain Section)
