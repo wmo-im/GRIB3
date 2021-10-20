@@ -1,4 +1,4 @@
-= Code Tables in GRIB Edition 3
+== Code Tables in GRIB Edition 3
 :stem: latexmath
 
 == Code Tables used in Section 0 (Indicator Section)

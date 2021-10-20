@@ -1,4 +1,4 @@
-= Content of Sections in GRIB edition 3
+== Content of Sections in GRIB edition 3
 :stem: latexmath
 
 == Section 0 - Indicator Section

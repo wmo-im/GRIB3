@@ -1,0 +1,18 @@
+:toc:
+:toc-placement!:
+:toclevels: 1
+
+= WMO GRIB3 Code Tables
+
+<<<
+toc::[]
+
+<<<
+
+include::Sections.adoc[]
+
+include::Tables.adoc[]
+
+include::Templates.adoc[]
+
+include::TemplateComponents.adoc[]

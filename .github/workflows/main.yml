@@ -1,0 +1,37 @@
+name: Build and deploy documentation
+
+on: [ push, pull_request ]
+
+jobs:
+  make_pages:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout master 🛎️
+      uses: actions/checkout@v2
+      with: 
+        ref: ${{ github.ref }}
+    - name: Install system packages 📦
+      run: |
+        sudo apt-get -qq -y install bison flex libffi-dev libxml2-dev libgdk-pixbuf2.0-dev libcairo2-dev libpango1.0-dev fonts-lyx cmake
+    - name: Install asciidoctor dependencies 📦
+      run: |
+        sudo gem install asciidoctor --pre
+        sudo gem install asciidoctor-pdf --pre
+        sudo gem install asciidoctor-mathematical
+    - name: Create standard document in HTML and PDF 🛠️
+      run: | 
+        asciidoctor -a stem -r asciidoctor-mathematical --trace -o /tmp/index.html ./Index.adoc
+        asciidoctor -a stem -r asciidoctor-mathematical -r asciidoctor-pdf --trace -b pdf -o /tmp/wmo-grib3.pdf ./Index.adoc
+    - name: Checkout gh-pages 🛎️
+      uses: actions/checkout@v2
+      with: 
+        ref: gh-pages
+    - name: Deploy updated pages 🚀
+      run: |
+        git config --global user.email "tomkralidis@gmail.com"
+        git config --global user.name "Tom Kralidis"
+        mv /tmp/index.html /tmp/wmo-grib3.pdf .
+        git commit -m "re-publish draft" ./wmo-grib3.pdf ./index.html
+        git push
+
